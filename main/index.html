@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <title>Image Gallery</title>
+  </head>
+  <body class="bg-[#191919]">
+    <div class="flex items-center justify-center mx-auto my-[10%]">
+      <img
+        id="back"
+        class="w-[50px] m-10 cursor-pointer"
+        src="/images/back.png"
+        alt=""
+      />
+      <div class="w-[900px] flex overflow-x-scroll gallery">
+        <div
+          class="w-full grid gap-5 p-2.5 grid-cols-[auto_auto_auto] flex-none"
+        >
+          <span>
+            <img
+              class="w-full grayscale hover:grayscale-0 cursor-pointer transition-transform duration-500 hover:scale-110"
+              src="/images/image-1.png"
+              alt=""
+            />
+          </span>
+          <span>
+            <img
+              class="w-full grayscale hover:grayscale-0 cursor-pointer transition-transform duration-500 hover:scale-110"
+              src="/images/image-2.png"
+              alt=""
+            />
+          </span>
+          <span>
+            <img
+              class="w-full grayscale hover:grayscale-0 cursor-pointer transition-transform duration-500 hover:scale-110"
+              src="/images/image-3.png"
+              alt=""
+            />
+          </span>
+        </div>
+        <div
+          class="w-full grid gap-5 p-2.5 grid-cols-[auto_auto_auto] flex-none"
+        >
+          <span>
+            <img
+              class="w-full grayscale hover:grayscale-0 cursor-pointer transition-transform duration-500 hover:scale-110"
+              src="/images/image-4.png"
+              alt=""
+            />
+          </span>
+          <span>
+            <img
+              class="w-full grayscale hover:grayscale-0 cursor-pointer transition-transform duration-500 hover:scale-110"
+              src="/images/image-5.png"
+              alt=""
+            />
+          </span>
+          <span>
+            <img
+              class="w-full grayscale hover:grayscale-0 cursor-pointer transition-transform duration-500 hover:scale-110"
+              src="/images/image-6.png"
+              alt=""
+            />
+          </span>
+        </div>
+      </div>
+      <img
+        id="next"
+        class="w-[50px] m-10 cursor-pointer"
+        src="/images/next.png"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
